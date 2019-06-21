@@ -1,0 +1,74 @@
+
+
+.container{
+    height:50px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom: 50px;
+    border-left: 50px;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+
+.instruct{
+    margin-top: 30px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom: 20px;
+    border-left: 50px;
+    box-shadow: 5px 5px 5px gainsboro;
+    padding: 10px;
+   font-size: 14px;
+   color: #458B74;
+
+}
+
+.hover{
+    background-color: rgb(247,247,250);
+}
+
+.name{
+    position: absolute;
+    margin-top: -60px;
+    margin-left:20px;
+    left: 40rpx;
+    font-size: 40rpx;
+    font-weight: bold;
+    color: #555555;
+}
+
+.time image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-top: 0px;
+    margin-left:20px;
+    position: absolute;
+    left: 33rpx;
+}
+.time text{
+    font-size: 30rpx;
+    color: #777;
+    position: absolute;
+    left: 70rpx;
+    margin-left:20px;
+    margin-top: -3px;
+}
+
+.user image{
+    width: 28rpx;
+    height: 28rpx;
+    margin-top: -20px;
+    margin-left:20px;
+    position: absolute;
+    left: 35rpx;
+}
+.user text{
+    font-size: 30rpx;
+    color: #777;
+    position: absolute;
+    left: 70rpx;
+    margin-top: -23px;
+    margin-left:20px;
+    
+}

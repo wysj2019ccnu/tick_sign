@@ -1,0 +1,110 @@
+/* pages/join_add/join_add.wxss */
+.container{
+    height: 350rpx;
+    background-color: #FFF;
+}
+
+
+.name{
+    font-size: 50rpx;
+    font-weight: bold;
+    text-align: center;
+
+}
+.block{
+    height: 20rpx;
+}
+.time image{
+    width: 36rpx;
+    height: 36rpx;
+}
+
+/*立即报名按钮样式*/
+.share{
+    width: 550rpx;
+    margin: 80px auto 0 auto;
+    text-align: center;
+}
+
+.img-list{
+    margin-top: 20rpx;
+    width: 580rpx;
+    margin-left: 85rpx;
+    text-align: center;
+}
+
+.contain{
+    width: 650rpx;
+    height: 250rpx;
+    margin: 20px  20px 20px -10px;
+}
+.time{
+    width: 600rpx;
+    height: 40rpx;
+    font-size: 28rpx;
+    color: #555;
+    margin:20px 0px 0px auto;
+    text-align: left;
+}
+
+.t{
+    width: 24rpx;
+    height: 24rpx;
+    float: left;
+    margin: 3rpx 12rpx 0 0;
+}
+.t image{
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.n{
+    width: 24rpx;
+    height: 24rpx;
+    float: left;
+    margin: -3px 5px 0 0;
+}
+.n image{
+    width: 24rpx;
+    height: 24rpx;
+}
+
+.note{
+  margin:20px auto auto 25px;
+}
+
+.ti{
+    font-size: 30rpx;
+    color: #555;
+    margin-top:12px;
+    margin-left: 10px;
+}
+
+.nameline{
+    width: 550rpx;
+    height: 1px;
+    background-color: #D7D7D7;
+    margin-top: 24rpx;
+    margin-bottom: 60rpx;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.namebtn{
+    margin-top: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+}
+
+button[type=primary] {
+color: #FFFFFF;
+background-color: #458B74;
+
+}
+.button-hover[type=primary] {
+color: rgba(255, 255, 255, 0.6);
+background-color: #528B8B;
+
+}

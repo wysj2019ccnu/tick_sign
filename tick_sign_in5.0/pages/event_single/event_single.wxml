@@ -1,0 +1,43 @@
+<!--pages/event_single/event_single.wxml-->
+<view class="container">
+    <view class="block"></view>
+    <view class="name">{{theme}}</view>
+    
+    <view>
+    <button bindtap="eventDelete" data-id="{{event_id}}">删除</button>
+    <button type="primary" open-type="share" data-name="pageShare" id="share">点击分享</button>
+    </view>
+    
+    <view class="contain">
+    <view class="time">
+        <view class="t">
+            <image src='/images/icon/time.png' ></image>
+        </view>
+        <view class="ti">开始时间 {{fromTime}}</view>
+    </view>
+
+    <view class="note">
+        <view class="n">
+            <image src='/images/icon/green.png' ></image>
+        </view>
+        <view class="ti">备注 {{note}}</view>
+    </view>
+
+    <view class="nameline"></view> 
+<!--这里是签到人员-->    
+   <block wx:for="{{join}}" wx:key="item">
+    <view class="time">
+        <view class="t">
+            <image src='/images/icon/green.png' ></image>
+        </view>
+        <view class="ti">{{item.joinName}}  {{item.joinTime}}签到</view>
+    </view>
+   </block>
+
+    </view>
+
+</view>
+
+
+
+

@@ -1,0 +1,51 @@
+<form bindsubmit="formsubmit">
+<view class="name">
+    <view class="name-left">
+        签到主题：
+    </view>
+    <view class="name-right">
+        <input placeholder="计算机基础课堂" maxlength="10"  name="theme" placeholder-style="color:#BBB;"/>
+      
+    </view>
+</view>
+
+<view class="time">
+    <view class="time-left">
+        开始时间：
+    </view>
+    <view class="time-mid">
+        <picker mode="date" value="{{start_date}}" start="{{start_date}}" end="2218-12-31" bindchange="bindDateChange" name="StartTimeDay">
+             <view class="picker" style='color:#555'>
+                  {{start_date}}
+            </view>
+        </picker>
+    </view>
+    <view class="time-right">
+        <picker mode="time" value="{{start_time}}"  bindchange="bindTimeChange" name="StartTimeHour">
+            <view class="picker" style='color:#555'>
+                    {{start_time}}
+            </view>
+        </picker>
+    </view>
+</view>
+
+<view class="add-info">
+    <view class="add-info-left">
+        备注:
+    </view>
+    <view class="add-info-right">
+        <input placeholder="地点、签到持续时间等" name="note" maxlength="18" placeholder-style="color:#BBB;"/>
+    </view>
+</view>
+
+
+<view class="create">
+   <button type="primary" formType="submit" >发布签到</button>
+   
+
+</view>
+
+
+</form>
+
+

@@ -1,0 +1,117 @@
+/* pages/join_list/join_list.wxss */
+.container{
+    height: 50px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right:20px;
+    padding-bottom: 60px;
+    border-left: 50px;
+    box-shadow: 5px 5px 5px gainsboro;
+}
+.hover{
+    background-color: rgb(247,247,250);
+}
+
+.theme{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: -75px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555555;
+}
+
+.right{
+    position: absolute;
+    padding-top: 65rpx;
+    right: 50rpx;
+    width: 66rpx;
+    height: 66rpx;
+}
+
+.id image{
+    width: 28rpx;
+    height: 28rpx;
+    margin-top: -20px;
+    margin-left:20px;
+    position: absolute;
+    left: 35rpx;
+}
+.id text{
+    font-size: 30rpx;
+    color: #777;
+    position: absolute;
+    left: 70rpx;
+    margin-top: -23px;
+    margin-left:20px;
+    
+}
+
+.time image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-top: 0px;
+    margin-left:20px;
+    position: absolute;
+    left: 33rpx;
+}
+.time text{
+    font-size: 30rpx;
+    color: #777;
+    position: absolute;
+    left: 70rpx;
+    margin-left:20px;
+    margin-top: -3px;
+}
+
+
+.name image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-top: 24px;
+    margin-left:20px;
+    position: absolute;
+    left: 33rpx;
+}
+.name text{
+    font-size: 30rpx;
+    color: #777;
+    position: absolute;
+    left: 70rpx;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+.button-hover {
+color: #FFFFFF;
+background-color: #528B8B;
+
+}
+
+button {
+width:20px;
+height: 20px;
+position: absolute;
+display: block;
+text-align: left;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 12px;
+border-radius: 100px;
+-webkit-tap-highlight-color: transparent;
+color: #FFFFFF;
+background: #528B8B;
+line-height: 1.5;
+font-weight: bolder;
+
+
+}
+
+.delete{
+   position: absolute;
+   margin-left: 120px;
+   margin-top: -56px;
+
+}
+

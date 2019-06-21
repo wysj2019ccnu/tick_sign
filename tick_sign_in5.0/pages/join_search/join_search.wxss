@@ -1,0 +1,57 @@
+/* pages/join_search/join_search.wxss */
+.ss{
+    background-color: #fff;
+    height: 70rpx;
+    width: 580rpx;
+    margin:30px auto;
+    border-style: soild;
+    border-radius: 3px;
+    margin-left: 18rpx;
+    border-width: 1px;
+    border-color: #458B74;
+}
+
+.ss icon{
+    padding-top: 19px;
+    padding-left: 18rpx;
+    float: left;
+    position: relative;
+
+}
+
+.ss input{
+    padding-top: 8px;
+    padding-left: 18px;
+    
+}
+
+.search{
+    height: 70rpx;
+    width:115rpx;
+    background-color: #458B74;
+    position: absolute;
+    right:30px;
+    top: 30px;
+    color: #fff;
+    font-size: 28rpx;
+    padding-top: 2rpx;
+    padding-left: 30rpx;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0;
+    border-color: #2F4F4F;
+}
+.hover-search{
+    background-color:#528B8B;
+    
+}
+
+image {
+width: 250px;
+height: 250px;
+margin-left:19%;
+margin-top:10%;
+display: inline-block;
+box-shadow: 5px 5px 5px gainsboro;
+border-radius:200px;
+}

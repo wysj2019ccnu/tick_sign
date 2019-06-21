@@ -1,0 +1,21 @@
+<!--pages/event_list/event_list.wxml-->
+<view class="instruct">提示：将ID号分享给好友，好友凭ID号加入签到</view>
+<block wx:for="{{list}}" wx:key="item">
+    <view class='container' hover-class="hover"  hover-stay-time="100"  bindtap="single" data-list="{{item}}" >
+       
+        <view class="name">
+            {{item.theme}}
+        </view>
+        
+    
+    <view class='user'>
+        <image src='/images/icon/id.png'></image>
+        <text>id {{item.event_id}}</text>
+    </view>
+
+    <view class='time'>
+        <image src='/images/icon/tim.png'></image>
+        <text>发布时间 {{item.time}}</text>
+    </view>
+    </view>
+</block>

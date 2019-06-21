@@ -1,0 +1,11 @@
+<!--pages/join_search/join_search.wxml-->
+<form bindsubmit="formsubmit">
+<view class="ss">
+    <icon type="search" size="15"/>
+    <input type="number"  confirm-type="search" name="event_id" maxlength="10" placeholder="输入签到ID" placeholder-class="place"/>
+</view>
+<button class="search" hover-class="hover-search" formType="submit" >搜索</button>
+</form>
+<view class="logo">
+<image src='/images/icon/logo.png' ></image>
+</view>

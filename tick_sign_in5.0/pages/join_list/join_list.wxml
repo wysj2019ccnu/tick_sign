@@ -1,0 +1,29 @@
+<!--pages/join_list/join_list.wxml-->
+<block wx:for="{{list}}" wx:key="item">
+    <view class='container' hover-class="hover"  hover-stay-time="100" data-id="{{item.event_id}}" >
+       
+        <view class="theme">
+            {{item.theme}}
+        </view>
+        <view class='delete'><button bindtap='joinDelete'data-join_id="{{item.join_id}}">×</button></view>
+
+       <image src='{{item.creator}}' class='right'></image>
+    
+    <view class='id'>
+        <image src='/images/icon/id.png'></image>
+        <text>{{item.event_id}}</text>
+    </view>
+
+    <view class='time'>
+        <image src='/images/icon/tim.png'></image>
+        <text>签到时间 {{item.joinTime}}</text>
+    </view>
+
+    <view class='name'>
+        <image src='/images/icon/c.png'></image>
+        <text>签到名 {{item.joinName}}</text>
+    </view>
+
+    </view>
+
+</block>

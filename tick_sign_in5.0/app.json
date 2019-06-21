@@ -1,0 +1,47 @@
+{
+  "pages": [
+    
+    "pages/join_search/join_search",
+    "pages/me/me",
+    "pages/event_list/event_list",
+    "pages/event_single/event_single",
+    "pages/event_add/event_add",
+    "pages/join_list/join_list",
+    "pages/join_add/join_add",
+    "pages/connectus/connectus",
+    "pages/instruct/instruct"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "时刻签到",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#888",
+    "selectedColor": "#42C541",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/join_search/join_search",
+        "text": "加入",
+        "iconPath": "images/icon/11.png",
+        "selectedIconPath": "images/icon/a.png"
+      },
+      {
+        "pagePath": "pages/event_add/event_add",
+        "text": "创建",
+        "iconPath": "images/icon/plus.png",
+        "selectedIconPath": "images/icon/b.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/icon/33.png",
+        "selectedIconPath": "images/icon/c.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
